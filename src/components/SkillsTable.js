@@ -5,12 +5,13 @@ import {Table} from 'react-bootstrap'
 const Styles = styled.div`
 .skills-table{
     background-color: #dddae2;
+    table-layout: auto;
 }
 `;
 
 export const SkillsTable = () => (
     <Styles>
-  <Table className='skills-table' striped bordered hover>
+  <Table className='skills-table'  wrapperClasses="table-responsive" striped bordered hover>
       <thead>
         <tr>
           <th>#</th>

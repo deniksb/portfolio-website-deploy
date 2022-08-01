@@ -33,7 +33,7 @@ const Styles = styled.div`
 export const Jumbotron = () => (
 
     <Styles>
-        <Jumbo controls={false} indicators={false} fluid className="jumbo" >
+        <Jumbo controls={false} indicators={false} interval={null} fluid className="jumbo" >
             <div className='overlay'></div>
             <Container>
                 <h1>Denis Berberov</h1>
