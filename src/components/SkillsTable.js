@@ -59,7 +59,7 @@ export const SkillsTable = () => (
         <tr>
           
           <td>React</td>
-          <td>Beginner</td>
+          <td>Intermediate</td>
         </tr>
         <tr>
           
