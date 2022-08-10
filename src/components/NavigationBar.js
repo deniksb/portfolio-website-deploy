@@ -27,7 +27,7 @@ const Styles = styled.div`
 export const NavigationBar = () => (
     <Styles>
         <Navbar expand="lg" className='sticky-nav' >
-            <Navbar.Brand href="/"><h2><b>DB</b></h2></Navbar.Brand>
+            <Navbar.Brand href="/"><h2><b>db</b></h2></Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav' className='bg-light'/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
